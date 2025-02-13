@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="webpage.Amazon_login">
+      <class name="webpage.Automation_teststore_register">
         <methods>
+          <include name="newregistration" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="close"/>
-          <include name="login"/>
         </methods>
-      </class> <!-- webpage.Amazon_login -->
+      </class> <!-- webpage.Automation_teststore_register -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
