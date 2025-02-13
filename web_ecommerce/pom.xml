@@ -16,8 +16,14 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>1.7.32</version>  <!-- You can use the latest version -->
+			<version>1.7.32</version>
 		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.32</version>
+		</dependency>
+
 
 		<!-- SLF4J binding for log4j -->
 		<dependency>
